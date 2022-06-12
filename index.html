@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./restaurant.css">
+<!-- <link rel="stylesheet" href="./restaurant.js"> -->
+    <title>Restaurant</title>
+    <!-- jquery link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <script src="./restaurant.js"></script>
+    <header id="heads">
+        <div class="row">
+            <div class="col-md-1">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-octagon-xmark"></i>
+            </div>
+            <div class="col-md-2" id="taco">
+                <button type="button" title="TACOS">TACOS
+                    <li class="tacolist"> Fish Tacos </li>
+                    <li class="tacolist"> Carnitas Tacos </li>
+                    <li class="tacolist"> Al Pastor Taco </li>
+                    <li class="tacolist"> Migas Taco </li>
+                    <li class="tacolist"> Carne Asada Tacos Dorados </li>
+                </button>
+            </div>  
+            <div class="col-md-2">
+                <button type="button" title="BEERS">BEERS</button>
+            </div>
+            <div class="col-md-2">
+                <button type="button" title="WINES">WINES</button>
+            </div>
+            <div class="col-md-2">
+                <button type="button" title="DESSERTS">DESSERTS</button>
+            </div>
+            <div class="col-md-2">
+                <button type="button" title="RESERVATION">RESERVATION</button>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+        </div>
+    </header>
+
+    <body class="all">
+        <div class="all2">
+            <div class="tacpix">
+                <h1 class="tactext">Daniel's Taco Joint</h1>
+                <p class="tactext">Pretty good taste! &#128151</p>
+            </div>
+        
+            <div class="bod">
+                <div class="bods">
+                    <h1>$1.99</h1>
+                    <pre>Taco</pre>
+                </div>
+                <br>
+                <div class="bods">
+                    <h1>$3.99</h1>
+                    <pre>5 Tacos</pre>
+                </div>
+            </div>
+        </div>
+        
+        <div class="body2">
+            <div class="body3">
+                <i class="fa-solid fa-taco">
+                    <h2>Tacos</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nostrum dignissimos maiores animi aliquam fugiat quam accusamus! Commodi, eius reprehenderit.
+                    </p>
+                </i>
+            </div>
+            <div class="body3">
+                <i class="fa-solid fa-beer-mug">
+                    <H2>Beer</H2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem commodi magni, numquam maiores qui incidunt facere harum? Eum, saepe repellat?
+                    </p>
+                </i>
+            </div>
+            <div class="body3">
+                <i class="fa-solid fa-wine-glass">
+                    <h2>Wine</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eum minima reiciendis vel quia beatae maxime eius eaque pariatur quod!</p>
+                </i>
+            </div>
+            <div class="body3">
+                <i class="fa-solid fa-music">
+                    <h2>Music</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus et dolores dignissimos iure nostrum quibusdam totam amet aperiam voluptatum?
+                    </p>
+                </i>
+            </div>
+        </div>
+        <section class="gramhead">
+            <div>
+                <p>Instant Grams</p>
+                <div class="pix">
+                    <img src="./images/photo-1.jfif" alt="">
+                    <img src="./images/Photo2.jfif" alt="">
+                    <img src="./images/photo3.jfif" alt="">
+                    <img src="./images/photo4.jfif" alt="">
+                    <img src="./images/photo5.jfif" alt="">
+                    <img src="./images/photo6.jfif" alt="">
+                    <img src="./images/photo7.jfif" alt="">
+                    <img src="./images/photo8.jfif" alt="">
+                    <img src="./images/photo9.jfif" alt="">
+                    <img src="./images/photo10.jfif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <div class="conundowncon">
+            <div class="countdownrow">
+                <div class="days">
+                    <h1>Day</h1>
+                    <h4>0</h4>
+                </div>
+                <div class="hours">
+                    <h1>Hours</h1>
+                    <h4>0</h4>
+                </div>
+                <div class="min">
+                    <h1>Minutes</h1>
+                    <h4>0</h4>
+                </div>
+                <div class="sec">
+                    <h1>Seconds</h1>
+                    <h4>0</h4>
+                </div>
+            </div>
+        </div>
+    </body>
+    <div class="numtag">
+        <input type="text" placeholder="What's your number?" class="num">
+        <button type="submit"> Place Bet</button>
+    </div>
+
+    <div class="todocon">
+        <form action="">
+            <input type="text" placeholder="Make a list" class="imput">
+            <button> Add To Do</button>
+            <button>Reset</button>
+        </form>
+
+        <ul class="todo-item-ul" id="todo-item-ul">
+            <li class="todo-items">Buy Groceries</li>
+        </ul>
+    </div>
+
+    
+
+</body>
+</html>
